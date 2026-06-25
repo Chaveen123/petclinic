@@ -7,7 +7,7 @@ pipeline {
                         sh 'cp -R helm/* .'
 		        sh 'ls -ltr'
                         sh 'pwd'
-                        sh 'helm upgrade --install petclinic-app ./petclinic'
+                        sh 'helm upgrade --install petclinic-app petclinic'
               			
             }           
         }
