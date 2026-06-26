@@ -1,7 +1,7 @@
  apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
- name: petclicnic-hpa
+ name: petclinic-hpa
 spec:
  maxReplicas: 5
  minReplicas: 1
