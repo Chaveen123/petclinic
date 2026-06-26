@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: chaveen123/test-repo
-  tag: 4
+  tag: latest
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
